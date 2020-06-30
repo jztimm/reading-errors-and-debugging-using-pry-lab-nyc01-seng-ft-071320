@@ -5,10 +5,11 @@ require 'pry'
 def snake_it_up(string)
   if string[0] == "s"
     long_s = 10.times { print "s" }
-    binding.pry
     "s"
   else
     string
   end
-  puts long_s.to_s + string
+  new_str = long_s.to_s + string
+  puts new_str
+  new_str
 end
