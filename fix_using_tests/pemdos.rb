@@ -4,8 +4,9 @@ require 'pry'
 
 def snake_it_up(string)
   if string[0] == "s"
-   new_str = 10.times { print "s" }
+    10.times {"#{string[0]} + #{string}"} 
+    string
   else
-    puts new_str + string
+    string
   end
 end
