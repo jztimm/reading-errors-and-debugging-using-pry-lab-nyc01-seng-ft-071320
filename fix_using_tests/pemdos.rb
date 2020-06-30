@@ -10,5 +10,5 @@ def snake_it_up(string)
   else
     string
   end
-  puts long_s + string
+  puts long_s.to_s + string
 end
