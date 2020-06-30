@@ -4,7 +4,7 @@ require 'pry'
 
 def snake_it_up(string)
   if string[0] == "s"
-    # long_s = 10.times { print "s" }
+    # long_s = 10.times { print "s" }       # Not sure why this doesn't work
     long_s = "s" * 10
     
   else
